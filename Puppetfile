@@ -11,7 +11,6 @@ mod "garethr/docker",         '5.3.0'
 mod "puppetlabs/apt",         '2.3.0'
 mod "stahnma/epel",           '1.2.2'
 
-
 # Modules from Git
 # Examples: https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd#examples
 #mod 'apache',
@@ -23,7 +22,7 @@ mod "stahnma/epel",           '1.2.2'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git => 'https://github.com/vedmichv/puppet-ssh.git'
+  :git => 'https://github.com/rivethead42/puppet-ssh.git',
   :ref => 'master'
 
 mod 'ntp',
@@ -38,3 +37,6 @@ mod 'profile',
   :git => 'git@github.com:rivethead42/puppet-profile.git',
   :ref => 'master'
 
+mod 'nginx',
+  :git => 'git@github.com:rivethead42/puppet-nginx.git',
+:ref => 'master'
