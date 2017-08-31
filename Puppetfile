@@ -22,7 +22,7 @@ mod "stahnma/epel",           '1.2.2'
 #  :branch => 'docs_experiment'
 
 mod 'ssh',
-  :git => 'https://github.com/rivethead42/puppet-ssh.git',
+  :git => 'https://github.com/vedmichv/puppet-ssh.git',
   :ref => 'master'
 
 mod 'ntp',
