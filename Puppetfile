@@ -22,13 +22,13 @@ mod 'ssh',
   :ref => 'master'
 
 mod 'ntp',
-  :git => 'https://github.com/revethead42/puppet-ntp.git',
+  :git => 'https://github.com/rivethead42/puppet-ntp.git',
   :ref => 'master'
 
 mod 'role',
-  :git => 'https://github.com/revethead42/puppet-role.git',
+  :git => 'https://github.com/rivethead42/puppet-role.git',
   :ref => 'master'
 
 mod 'profile'
-  :git => 'https://github.com/revthead42/puppet-profile.git'
-  :reg => 'master'
+  :git => 'git@github.com:rivethead42/puppet-profile.git'
+  :ref => 'master'
